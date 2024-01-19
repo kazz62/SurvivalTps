@@ -10,6 +10,12 @@ public class PickupBehaviour : MonoBehaviour
     private Item currentItem;
     public void DoPickup(Item item)
     {
+        if(inventory.IsFull())
+        {
+            Debug.Log("Inventory full, can't pick up : " + item.name);
+            return;
+        }
+
         currentItem = item;
         playerAnimator.SetTrigger("Pickup");
         playerMoveBehaviour.canMove = false;       
