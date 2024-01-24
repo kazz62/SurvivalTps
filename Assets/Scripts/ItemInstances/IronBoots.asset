@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824357c80c54a334eb1a42687191c269, type: 3}
+  m_Name: IronBoots
+  m_EditorClassIdentifier: 
+  name: Iron Boots
+  description: A simple pair of iron boots.
+  visual: {fileID: 21300000, guid: afd2e8edfd779164c8c91cb789a8e90c, type: 3}
+  prefab: {fileID: 4693099195265717160, guid: 54ec30a0ae67eca4993e1a6c70718b49, type: 3}
+  itemType: 1
+  equipmentType: 4

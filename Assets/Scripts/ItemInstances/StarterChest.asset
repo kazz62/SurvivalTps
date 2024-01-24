@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824357c80c54a334eb1a42687191c269, type: 3}
+  m_Name: StarterChest
+  m_EditorClassIdentifier: 
+  name: Starter Chest
+  description: A simple chestPlate.
+  visual: {fileID: 21300000, guid: 0ecfc25e64ad1ef4b9775690fa709b5a, type: 3}
+  prefab: {fileID: 1922643176910462437, guid: 694e2bdea3574334e96cb670832abf3d, type: 3}
+  itemType: 1
+  equipmentType: 1
